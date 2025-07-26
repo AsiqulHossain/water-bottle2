@@ -1,34 +1,13 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const [count] = useState(0)
+console.log(count);
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus deserunt voluptatem ab natus saepe nostrum numquam quibusdam quo iste cupiditate corrupti minus possimus, eos quod aliquid atque perferendis sed reiciendis architecto soluta accusantium ad recusandae, quas debitis? Pariatur similique quae illum porro iste tempora placeat voluptatibus aut architecto quidem, velit aliquam at sunt nemo, tenetur, laboriosam modi. Alias, autem. Commodi facere nemo repellat, voluptatem aut necessitatibus quos quidem dolorum. Qui neque voluptatem quidem cum. Deserunt eius officiis sapiente? Quia, unde hic animi debitis adipisci ratione mollitia architecto ipsum aperiam quae omnis dolore, dolorem aspernatur ut molestiae, porro tempore eveniet possimus aliquam. Neque possimus dignissimos accusamus omnis pariatur aliquid. Earum suscipit laboriosam cupiditate doloremque sed dicta esse enim quibusdam repudiandae sint magni quasi voluptas dolorem, beatae perferendis aperiam excepturi provident, ratione assumenda sunt voluptatum at nemo minus nesciunt! Quaerat, magni modi rem qui deserunt nulla quos suscipit cumque non quas repellendus ab dignissimos tempore inventore labore doloribus nostrum, id beatae hic ad aut exercitationem recusandae. Facilis quaerat sed quia provident, doloremque maxime assumenda cupiditate molestias et voluptas iusto natus maiores necessitatibus reprehenderit iure obcaecati deserunt architecto ipsam porro autem odit id. Architecto, quia totam. Vitae sapiente culpa ab atque hic temporibus libero at inventore obcaecati distinctio magnam aspernatur impedit illo ipsa dolorem, enim ex praesentium id cumque esse quaerat magni tempora laudantium nobis? Totam aspernatur, earum culpa temporibus qui minima dolorum saepe soluta quas ab architecto vero rerum dolorem! Quaerat maiores animi neque blanditiis ipsam magnam totam odit saepe, voluptate reiciendis repudiandae vitae nisi hic? Ad ratione rem vitae dolore voluptatibus libero quae ab inventore sed nihil? Molestiae eveniet maxime cupiditate perspiciatis harum, totam quae numquam vero nisi maiores adipisci recusandae magnam. Tenetur qui, eos minus nihil error itaque pariatur cumque eligendi commodi ex natus recusandae quam deserunt? Officiis dolorem repellendus sint accusamus quibusdam vel maxime esse excepturi. Reprehenderit corporis molestias beatae iusto praesentium autem harum et, non maiores architecto fugit magni. Sit nesciunt corrupti eveniet facere magni illum tempora voluptas perferendis mollitia animi aspernatur quasi modi ab quisquam totam alias magnam ducimus, nemo at natus? Accusantium eligendi corporis ipsa quia adipisci expedita illum. Natus officia quasi eius ea dolorem? Aut officiis ad voluptates ducimus maxime in architecto quia voluptatem possimus facilis perferendis, nihil soluta cumque dolores deleniti maiores aliquam aliquid eos enim. Repellat ex saepe, harum expedita at dolore blanditiis nihil excepturi, tempore voluptatibus aliquam distinctio placeat? Et placeat, excepturi consequuntur dolore in iure voluptatibus itaque. Odio dolorum nesciunt autem quo quisquam id illum adipisci, labore debitis consequatur, impedit suscipit aspernatur assumenda modi dolor sequi qui dignissimos nostrum! Suscipit modi excepturi pariatur rerum ab deserunt in porro aut laborum beatae nobis, blanditiis dolorem fugit facere quam aliquam, voluptate dolor quia totam obcaecati rem officiis quibusdam dignissimos iste. Pariatur, temporibus maiores! Unde soluta ex ea, doloremque officiis ipsam dicta dolorum voluptatum modi qui optio velit blanditiis quam ullam veritatis quasi. Fugit natus, placeat nostrum nam nihil, perferendis corrupti, qui odio deserunt exercitationem inventore ducimus ipsam explicabo doloremque culpa officia optio? Ducimus?
+    </div>
   )
 }
 
